@@ -1,0 +1,127 @@
+body{
+	font-family: "Oswald" ,Sans-serif;
+	margin: 0;
+	padding: 0;
+	min-width: 200px;
+}
+
+.nav{
+	font-size: 15px;
+	color:#fff;
+	padding: 12px;
+	background-color: #73c;
+	border-bottom: 1px solid #7498DB;
+	
+}
+
+ul{
+	text-align: right;
+	margin: auto;
+}
+
+li{
+	display: inline-block;
+	margin: 12px;
+	
+}
+
+h1{
+	font-size: 52px;
+	font-weight: 500;
+	color: darkred;
+}
+
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+.logo{
+	margin-left:0px;
+	float: left;
+}
+
+a{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.002em;
+	text-decoration: none;
+}
+
+a:hover{
+	color:  #7498DB;
+	font-size: ;
+	padding: 2px;
+	letter-spacing: 0.002em;
+}
+a:active{
+	color:  
+}
+
+.headblur{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.header{
+	background-image: url("images/car.jpg");
+	background-repeat: no-repeat;
+	background-position: center ;
+	width: 100%;
+	height: 600px;
+	background-size:cover;
+	padding: 0px;
+	position: scroll;
+	min-width: 200px;
+
+}
+
+.header-text{
+	font-size: 50px;
+	padding: 20px;
+	margin-left: 50px;
+	background: rgba(255,255,255,0.7);
+	border: 10px transparent solid;
+	text-align: center;
+	width: 40%;
+	min-width: 200px;
+
+}
+
+.heading{
+	text-align: center;
+	margin: auto;
+	padding: 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+hr{
+	width: 50px;
+}
+
+.classSection{
+	margin: auto;
+
+}
+
+.boxes{
+	width: 300px;
+	height: 100px;
+	text-align: center;	
+	box-sizing: border-box;
+}
+
+img.car{
+	display: block;
+	min-width: 300px;
+	height: 200px;
+	margin-left: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgba(0,0,0,0.7);
+}
+
+

@@ -1,0 +1,239 @@
+body{
+	font-family: "Oswald" ,Sans-serif;
+	margin: 0;
+	padding: 0;
+	min-width: 200px;
+    background-color: #eeeeee;
+}
+
+.nav{
+	font-size: 15px;
+	color:#fff;
+	padding: 12px;
+	background-color: #73c;
+	border-bottom: 1px solid #7498DB;
+	
+}
+
+ul{
+	text-align: right;
+	margin: auto;
+}
+
+li{
+	display: inline-block;
+	margin: 12px;
+	
+}
+
+h1{
+	font-size: 52px;
+	font-weight: 500;
+	color: darkred;
+}
+
+html{
+	padding: 0px;
+	margin: 0px;
+}
+
+.logo{
+	margin-left:0px;
+	float: left;
+}
+
+a{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.002em;
+	text-decoration: none;
+}
+
+a:hover{
+	color:  #7498DB;
+	font-size: ;
+	padding: 0px;
+	letter-spacing: 0.002em;
+}
+a:active{
+	color:antiquewhite;
+}
+
+.headblur{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.header-text{
+	font-size: 50px;
+	padding: 20px;
+	margin-left: 50px;
+	background: rgba(255,255,255,0.7);
+	border: 10px transparent solid;
+	text-align: center;
+	width: 40%;
+	min-width: 200px;
+
+}
+
+.header{
+	background-image: url("images/car.jpg");
+	background-repeat: no-repeat;
+	background-position: center ;
+	width: 100%;
+	height: 600px;
+	background-size:cover;
+	padding: 0px;
+	position: scroll;
+	min-width: 200px;
+
+}
+
+.Section1{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.heading{
+	text-align: center;
+	margin: auto;
+	padding: 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.heading2{
+	text-align: center;
+	margin: auto;
+	padding: 50px;
+    color: antiquewhite;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+hr{
+	width: 50px;
+}
+
+.classSection{
+    width: 80%;
+	margin: auto;
+    margin-bottom: 100px;
+}
+
+.thumbnail{
+    display: inline-block;
+    margin-right: 30px;
+    width: 325px;
+    padding: 0px;
+    margin-left: 0px;
+    background-color: #fff;
+    box-shadow: 1px 0px 1px 1px #eeeeee;
+    height: auto;
+}
+
+.imgcaption{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: blue;
+}
+
+/*
+.boxes{
+	width: 300px;
+	height: 100px;
+	text-align: center;	
+	box-sizing: border-box;
+}
+*/
+
+.car{
+	display: inline-block;
+	margin-left: 0px;
+	background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+
+.Section2{
+    background-color: #fff;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.secondsection{
+    width: 80%;
+    margin: auto;
+}
+
+.contactform{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    background-image: url(images/route.PNG);
+    
+}
+
+.blur{
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    height: 500px;
+}
+
+.mapp{
+    width: 80%;
+    margin: auto;
+}
+
+.addr{
+    width: 40%;
+    text-decoration: none;
+    float: right;
+    color: red;
+}
+
+form{
+    width: 40%;
+    margin-left: 0px;
+}
+
+input{
+    display: block;
+    padding: 0px;   
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    display: block;
+    padding: 0px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: midnightblue;
+    width: 30%;
+    float: right;
+}
+
+.footer{
+    height: auto;
+    width: 100%;
+    padding: 5px 0px 5px 0px; 
+    border:0px; 
+    background-color: dimgray;
+    text-align: center;
+}
+
+
