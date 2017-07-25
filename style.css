@@ -192,39 +192,42 @@ hr{
     margin: auto;
 }
 
-.addr{
-    width: 40%;
-    text-decoration: none;
-    float: right;
-    color: red;
-}
-
 form{
-    width: 40%;
+    width: 100%;
     margin-left: 0px;
 }
 
 input{
     display: block;
-    padding: 0px;   
-    width: 100%;
+    padding: 10px;   
+    width: 50%;
+    margin: auto;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
 textarea{
     display: block;
-    padding: 0px;
-    width: 100%;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+.contactus{
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Arial' , 'sans-serif';
+    margin: 0px;
+    padding: 0px;
 }
 
 .btn{
     color: white;
     background-color: midnightblue;
-    width: 30%;
-    float: right;
+    width: 15%;
 }
 
 .footer{
